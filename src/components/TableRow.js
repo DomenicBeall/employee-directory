@@ -8,6 +8,8 @@ const TableRow = (props) => {
       <div className="row">
         <div className="col">{employee.name.first}</div>
         <div className="col">{employee.name.last}</div>
+        <div className="col">{employee.dob.age}</div>
+        <div className="col">{employee.location.city}</div>
       </div>  
     );
 
