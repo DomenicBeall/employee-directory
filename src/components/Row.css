@@ -1,0 +1,13 @@
+.row {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col {
+    margin-right: 2rem;
+    width: 20%;
+    text-align: left;
+}
